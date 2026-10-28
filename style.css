@@ -1,5 +1,5 @@
-:root{--bg:#0F1318;--surf:#141920;--surf2:#1A2029;--line:#252C36;--text:#E4E7EB;--muted:#A3ABB7;--faint:#8C95A3;--teal:#7FC0B1;--tealf:#3F8C7F;--tealbg:#16302B;--gold:#E0B062;--goldbg:#2B2617;--coral:#E39A86;--rose:#E7A3BE;--track:#2A313C;--r1:#5FB3A2;--r2:#E0B062;--r3:#B79AE0;color-scheme:dark}
-@media (prefers-color-scheme:light){:root{--bg:#F6F7F9;--surf:#FFFFFF;--surf2:#EEF0F3;--line:#DDE1E7;--text:#1B1F26;--muted:#5B6472;--faint:#6B7480;--teal:#2A7266;--tealf:#2F7D70;--tealbg:#DDEFEB;--gold:#8A5E0E;--goldbg:#F7EDD8;--coral:#B64A33;--rose:#A63D6A;--track:#E3E7EC;--r1:#2F7D70;--r2:#B8893F;--r3:#7A55B0;color-scheme:light}}
+:root{--brand:#74D68A;--bg:#0F1318;--surf:#141920;--surf2:#1A2029;--line:#252C36;--text:#E4E7EB;--muted:#A3ABB7;--faint:#8C95A3;--teal:#7FC0B1;--tealf:#3F8C7F;--tealbg:#16302B;--gold:#E0B062;--goldbg:#2B2617;--coral:#E39A86;--rose:#E7A3BE;--track:#2A313C;--r1:#5FB3A2;--r2:#E0B062;--r3:#B79AE0;color-scheme:dark}
+@media (prefers-color-scheme:light){:root{--brand:#2E8A4A;--bg:#F6F7F9;--surf:#FFFFFF;--surf2:#EEF0F3;--line:#DDE1E7;--text:#1B1F26;--muted:#5B6472;--faint:#6B7480;--teal:#2A7266;--tealf:#2F7D70;--tealbg:#DDEFEB;--gold:#8A5E0E;--goldbg:#F7EDD8;--coral:#B64A33;--rose:#A63D6A;--track:#E3E7EC;--r1:#2F7D70;--r2:#B8893F;--r3:#7A55B0;color-scheme:light}}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 Figtree,system-ui,-apple-system,"Segoe UI",sans-serif}
@@ -8,7 +8,8 @@ a:focus-visible,summary:focus-visible{outline:2px solid var(--teal);outline-offs
 h1,h2,h3{font-family:"Bricolage Grotesque",Figtree,sans-serif;margin:0;text-wrap:balance}
 .wrap{max-width:1280px;margin:0 auto}
 .nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 56px}
-.brand{display:flex;align-items:center;gap:10px;font:700 22px "Bricolage Grotesque",sans-serif}
+.brand{display:flex;align-items:center;gap:10px}
+.word{font:500 25px/1 "Fira Sans",sans-serif;color:var(--brand);letter-spacing:.005em}
 .mark{width:28px;height:28px;background:url(/img/ring.svg) center/contain no-repeat;flex:none}
 .nav nav,.foot nav{display:flex;flex-wrap:wrap;gap:28px;font-size:15px;color:var(--muted)}
 .nav nav a:hover,.foot a:hover{color:var(--text)}
