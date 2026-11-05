@@ -5,7 +5,6 @@ TPL = (root / "src" / "page.html").read_text()
 for name, title, desc in [
     ("privacy", "Privacy policy", "How Evenso handles your information: everything stays on your device. No accounts, ads or analytics."),
     ("terms", "Terms of use", "The terms for using the Evenso app."),
-    ("help", "Help", "Help with Evenso: backups, widgets, reminders and the daily check-in."),
 ]:
     md = (root / "src" / f"{name}.md").read_text()
     md = re.sub(r"^# .*\n", "", md, count=1)

@@ -1,6 +1,6 @@
 # Evenso privacy policy
 
-Last updated: 23 October 2026
+Last updated: 5 November 2026
 
 Evenso is a habits, people and tasks app for Android. This policy explains what the app does with your information. The short version: **everything you enter stays on your device. We don't have servers, accounts, ads or analytics, and we never see your data.**
 
@@ -27,13 +27,17 @@ If you choose to import people from your phone's contacts, Evenso asks for permi
 
 When you tap to wish someone or call them, Evenso opens your messaging or phone app (for example WhatsApp or SMS) with the message ready. The sending happens in that app, under its own privacy terms. Evenso doesn't read your messages or call history.
 
+## Voice input
+
+Quick add has a microphone button. When you tap it, Evenso asks your phone's speech service to turn what you say into text, and it asks for on-device recognition where your phone offers it. Where on-device recognition isn't available, your phone's speech service (usually Google's) may send the audio to its own servers to recognise it, under its own privacy terms. Evenso only receives the text, saves it as a task or note on your device, and never records or keeps audio.
+
 ## Notifications and alarms
 
 Evenso uses notifications for your check-in and review reminders, birthday heads-ups and optional sleep alarms. These are scheduled on your device.
 
 ## Optional extras
 
-- **Home screen.** If you choose to use Evenso as your home screen, it lists the apps installed on your device so you can open them. That list stays on your device.
+- **Home screen.** If you choose to use Evenso as your home screen, it lists the apps installed on your device so you can open them, and remembers which ones you opened recently from Evenso. That list stays on your device.
 - **Widgets.** If you add an Evenso widget to your home screen, it shows your rings, a few tasks and the week's dates there. It reads the same file on your device; anyone who can see your screen can see what the widget shows.
 - **Lock-screen glance.** If you turn this on, Evenso asks for "Display over other apps" so it can show today's events when you wake your screen. It shows only your own information, on your device.
 

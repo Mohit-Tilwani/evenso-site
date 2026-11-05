@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Evenso · a calm habit builder for Android</title>
-<meta name="description" content="Evenso is a calm habit builder for Android: a daily check-in, small daily habits, birthday and gift reminders so you keep in touch with the people who matter, and tasks to close out. Private, no account, everything stays on your phone.">
+<title>Evenso · coming soon</title>
+<meta name="description" content="Your day and your people, in one calm place. Evenso is coming soon to Android.">
 <link rel="canonical" href="https://evenso.me/">
 <meta name="theme-color" content="#0F1318" media="(prefers-color-scheme: dark)">
 <meta name="theme-color" content="#F6F7F9" media="(prefers-color-scheme: light)">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Evenso · Missed a day? Evenso, keep going.">
-<meta property="og:description" content="A calm Android app for small daily habits, the people who matter, and the tasks you keep putting off. No account, no ads, everything stays on your phone.">
+<meta property="og:title" content="Evenso · coming soon">
+<meta property="og:description" content="Your day and your people, in one calm place.">
 <meta property="og:url" content="https://evenso.me/">
 <meta property="og:image" content="https://evenso.me/img/feature.png">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -19,102 +19,44 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Fira+Sans:wght@500&family=Figtree:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="/style.css">
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Evenso","operatingSystem":"Android","applicationCategory":"LifestyleApplication","url":"https://evenso.me/","description":"A calm habit builder with a daily check-in, small daily habits, birthday and gift reminders, keep-in-touch nudges and tasks. Private, no account.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
-</script>
+<style>
+.soonpage{min-height:100vh;display:flex;flex-direction:column}
+.soon-main{flex:1;display:flex;align-items:center;justify-content:center;padding:48px 56px 64px}
+.soon-box{max-width:44em;width:100%;text-align:center}
+.soon-box h1{font:700 52px/1.12 "Bricolage Grotesque",Figtree,sans-serif;letter-spacing:-.015em;margin:0 0 36px}
+.soon-box .lede2{font-size:18px;color:var(--muted);margin:0 0 32px}
+.signup{display:flex;gap:10px;max-width:30em;margin:0 auto}
+.signup input[type=email]{flex:1;min-width:0;min-height:50px;padding:0 18px;border-radius:25px;border:1px solid var(--line);background:var(--surf);color:var(--text);font:16px Figtree,system-ui,sans-serif}
+.signup input[type=email]:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.signup button{min-height:50px;padding:0 24px;border-radius:25px;border:0;background:var(--tealf);color:#fff;font:600 16px Figtree,system-ui,sans-serif;cursor:pointer}
+.signup button:hover{filter:brightness(1.08)}
+.signup button:focus-visible{outline:2px solid var(--teal);outline-offset:3px}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.soon-fine{font-size:14px;color:var(--faint);margin:16px 0 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+@media (max-width:640px){.soon-main{padding:24px 20px 48px}.soon-box h1{font-size:36px}.signup{flex-direction:column}.signup button{width:100%}}
+</style>
 </head>
 <body>
-<div class="wrap">
-<header class="nav"><a class="brand" href="/" aria-label="Evenso home"><span class="mark" aria-hidden="true"></span><span class="word">evenso</span></a>
-<nav aria-label="Main"><a href="/help/">Help</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav></header>
-<main>
-<section class="hero">
-<div>
-<h1>Missed a day? <span class="nb">Evenso, keep going.</span></h1>
-<p class="lede">A calm Android app for your daily <mark class="k">habits</mark>, the <mark class="k">people</mark> who matter, and the <mark class="k">tasks</mark> you keep putting off.</p>
-<div class="ctas"><span class="btn soon">Coming soon to Google Play</span></div>
-<p class="fine">Free · No account · No ads · Everything stays on your phone</p>
+<div class="wrap soonpage">
+<header class="nav"><a class="brand" href="/" aria-label="Evenso home"><span class="mark" aria-hidden="true"></span><span class="word">evenso</span></a></header>
+<main class="soon-main">
+<div class="soon-box">
+<h1>Your day and your people, in one calm place.</h1>
+<form class="signup" action="https://formsubmit.co/hello@evenso.me" method="POST">
+<label class="sr" for="email">Your email</label>
+<input id="email" type="email" name="email" required autocomplete="email" placeholder="you@example.com">
+<input type="hidden" name="_subject" value="New Evenso tester sign-up">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://evenso.me/thanks/">
+<input class="hp" type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Sign me up</button>
+</form>
+<p class="soon-fine">Sign up to test it early. We'll only email you about testing.</p>
 </div>
-<div class="shotbox"><picture>
-<source srcset="/img/home-light.png" media="(prefers-color-scheme: light)">
-<img class="shot" src="/img/home-dark.png" width="600" height="1246" alt="Evenso home screen: the day clock, how you feel, what is coming up and your habit rings">
-</picture></div>
-</section>
-
-<section class="sec">
-<div class="stext">
-<p class="kicker">Habits</p>
-<h2><span class="w">Habits</span> that start small</h2>
-<p class="sub2">Pick a ready-made plan, or build your own. You start with three rings and two habits each, and add more once they feel easy.</p>
-<div class="how"><span>Morning check-in: sleep, energy, stress, mood</span><span>Night wrap-up: one tap per habit</span><span>Streaks cheer, no guilt</span></div>
-</div>
-<div class="plans"><div class="plan"><b>Healthier life</b><p>Walk, weights · water, no packaged food · meditate, read</p></div><div class="plan"><b>Destress life</b><p>Walk, yoga · no sugar, no caffeine · talk to a friend, water the plant</p></div><div class="plan"><b>Better skin</b><p>Fewer long sits, yoga · water, no sugar · ice wash, night routine</p></div><div class="plan"><b>Better sleep</b><p>Morning sun, walk · no caffeine after 2, early dinner · no screens in bed, read</p></div><div class="plan"><b>Sharper focus</b><p>Walk, water · meditate, no phone first hour · read, learn 15 min</p></div><div class="plan own"><b>Build your own</b><p>Pick up to 3 areas and 2 small habits in each.</p></div></div>
-</section>
-
-<section class="sec flip">
-<div class="stext">
-<p class="kicker">Stay in touch</p>
-<h2><span class="w">People</span> who matter, in circles</h2>
-<p class="sub2">Put each person in a circle: Core, Inner, Middle or Outer. Closer circles get earlier heads-ups and more nudges.</p>
-<ul class="plist">
-<li><b>A nudge when it's been a while.</b> "You haven't spoken to Kai in 3 weeks."</li>
-<li><b>Birthdays and anniversaries, with the message ready.</b> One tap opens WhatsApp or SMS with the wish written.</li>
-<li><b>Gift heads-up weeks ahead.</b> "Maya turns 32 in 14 days. Buy the gift this week."</li>
-<li><b>Sent in time.</b> If it has to travel, a reminder to send it a few days before.</li>
-</ul></div>
-<div class="shotbox"><picture>
-<source srcset="/img/people-light.png" media="(prefers-color-scheme: light)">
-<img class="shot" src="/img/people-dark.png" width="600" height="1246" loading="lazy" alt="Evenso Keep in touch screen: circles and who to reach out to">
-</picture></div>
-</section>
-
-<section class="sec">
-<div class="stext">
-<p class="kicker">Tasks done</p>
-<h2><span class="w">Tasks</span>, closed out</h2>
-<p class="sub2">No endless someday list. Every task gets a day, and the late ones come first.</p>
-<ul class="plist">
-<li><b>Today, with what's next beside it.</b> Urgent things and the next 7 days sit next to Today.</li>
-<li><b>Not today? One tap to Move.</b> Pick a new day and get on with it.</li>
-<li><b>Nothing slips.</b> The night wrap-up catches anything still open.</li>
-<li><b>A focus timer that asks what you're finishing.</b> Pick the task, start the timer, tick it off when it rings.</li>
-</ul></div>
-<div class="shotbox"><picture>
-<source srcset="/img/tasks-light.png" media="(prefers-color-scheme: light)">
-<img class="shot" src="/img/tasks-dark.png" width="600" height="1246" loading="lazy" alt="Evenso Tasks screen: late first, then today">
-</picture></div>
-</section>
-
-<section class="extras">
-<h2>If you want them</h2>
-<div class="xgrid" id="feats">
-<article class="x"><div class="xv" aria-hidden="true"><div class="alarm"><b>11:00 PM</b><span>Bedtime</span></div><div class="alarm"><b>7:00 AM</b><span>Wake up</span></div></div>
-<h3>Sleep alarms</h3><p>A bedtime nudge and a wake-up alarm set from your usual times. Still awake? Push the morning back.</p></article>
-<article class="x"><div class="xv" aria-hidden="true"><div class="wdg"><i></i>Maya's birthday in 5 days · gift to buy</div></div>
-<h3>Home-screen widgets</h3><p>Your rings and today's top tasks, and a ticker for what's coming up this week.</p></article>
-</div>
-<div class="dots" aria-hidden="true"><i class="on"></i><i></i></div>
-</section>
-
-<section class="faq"><h2>Questions</h2>
-<details class="q" open><summary>Is Evenso a habit tracker?</summary><p>It's a habit builder. Tell it what you're working towards (better sleep, less stress, sharper focus) and it suggests a few small daily habits to start with. A short check-in each morning and a wrap-up each night keep you honest. Streaks are there to cheer you on; a missed day doesn't wipe out your progress.</p></details>
-<details class="q" open><summary>Does it remind me about birthdays and gifts in advance?</summary><p>Yes. Birthdays, anniversaries and holidays come with a heads-up days or weeks ahead, depending on how close the person is, plus a reminder to buy the gift, and to send it in time.</p></details>
-<details class="q" open><summary>Do I need an account? Where is my data?</summary><p>No account. Everything stays on your phone. There are no ads and no tracking; you can back up with Android backup or to a folder you choose.</p></details>
-<details class="q" open><summary>Is it free?</summary><p>Yes, Evenso is free. Optional extras may come later as one-time purchases.</p></details>
-<details class="q" open><summary>Does it have home-screen widgets?</summary><p>Yes: your rings and today's tasks, and a ticker for what's coming up this week.</p></details>
-</section>
-
-<section class="sup">
-<div><h2>Help make it better</h2><p>Found a bug or have an idea? We read every email.</p></div>
-<div><a class="btn ghost" href="mailto:hello@evenso.me?subject=Evenso%20feedback">Send feedback</a></div>
-</section>
 </main>
-<footer class="foot"><span>© 2026 Evenso</span><nav aria-label="Footer"><a href="/help/">Help</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="mailto:hello@evenso.me">hello@evenso.me</a></nav></footer>
+<footer class="foot"><span>© 2026 Evenso</span><nav aria-label="Footer"><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="mailto:hello@evenso.me">hello@evenso.me</a></nav></footer>
 </div>
-<script>
-(function(){var f=document.getElementById('feats'),d=document.querySelectorAll('.dots i');if(!f||!d.length)return;
-f.addEventListener('scroll',function(){var w=f.firstElementChild.getBoundingClientRect().width+16,i=Math.round(f.scrollLeft/w);
-for(var k=0;k<d.length;k++)d[k].className=k===i?'on':'';},{passive:true});})();
-</script>
 </body>
 </html>
